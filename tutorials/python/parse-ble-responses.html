@@ -23,7 +23,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Open GoPro">
 <meta property="og:title" content="Python Tutorial 3: Parse BLE TLV Responses">
-<meta property="og:url" content="https://gopro.github.io/OpenGoPro/tutorials/python/parse-ble-responses">
+<meta property="og:url" content="https://gopro.github.io/tutorials/python/parse-ble-responses">
 
 
   <meta property="og:description" content="Python Tutorial 3: Parse BLE TLV Responses">
@@ -34,14 +34,14 @@
 
 
 
-  <meta property="article:published_time" content="2021-11-15T17:00:14-08:00">
+  <meta property="article:published_time" content="2022-01-05T02:04:05-08:00">
 
 
 
 
 
 
-<link rel="canonical" href="https://gopro.github.io/OpenGoPro/tutorials/python/parse-ble-responses">
+<link rel="canonical" href="https://gopro.github.io/tutorials/python/parse-ble-responses">
 
 
 
@@ -52,7 +52,7 @@
     
       "@type": "Person",
       "name": "GoPro",
-      "url": "https://gopro.github.io/OpenGoPro/"
+      "url": "https://gopro.github.io/"
     
   }
 </script>
@@ -76,26 +76,26 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/OpenGoPro/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/main.css">
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
 
   
-    <script src="/OpenGoPro/assets/js/tabs.js"></script>
+    <script src="/assets/js/tabs.js"></script>
   
-    <script src="/OpenGoPro/assets/js/quiz.js"></script>
+    <script src="/assets/js/quiz.js"></script>
   
-    <script src="/OpenGoPro/assets/js/accordion.js"></script>
+    <script src="/assets/js/accordion.js"></script>
   
 
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/OpenGoPro/assets/images/logos/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/OpenGoPro/assets/images/logos/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/OpenGoPro/assets/images/logos/favicon-16x16.png">
-<link rel="manifest" href="/OpenGoPro/assets/images/logos/site.webmanifest">
-<link rel="mask-icon" href="/OpenGoPro/assets/images/logos/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="/OpenGoPro/assets/images/logos/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/logos/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/logos/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/logos/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/logos/site.webmanifest">
+<link rel="mask-icon" href="/assets/images/logos/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/images/logos/favicon.ico">
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="msapplication-config" content="/assets/images/logos/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
@@ -122,30 +122,30 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/OpenGoPro/"><img src="/OpenGoPro/assets/images/logos/logo.png" alt="Open GoPro"></a>
+          <a class="site-logo" href="/"><img src="/assets/images/logos/logo.png" alt="Open GoPro"></a>
         
-        <a class="site-title" href="/OpenGoPro/">
+        <a class="site-title" href="/">
           Open GoPro
           
         </a>
         <ul class="visible-links">
 <li class="masthead__menu-item">
-              <a href="/OpenGoPro/">Home</a>
+              <a href="/">Home</a>
             </li>
 <li class="masthead__menu-item">
-              <a href="/OpenGoPro/ble">BLE Specs</a>
+              <a href="/ble">BLE Specs</a>
             </li>
 <li class="masthead__menu-item">
-              <a href="/OpenGoPro/wifi">WiFi Specs</a>
+              <a href="/wifi">WiFi Specs</a>
             </li>
 <li class="masthead__menu-item">
-              <a href="/OpenGoPro/tutorials">Tutorials</a>
+              <a href="/tutorials">Tutorials</a>
             </li>
 <li class="masthead__menu-item">
-              <a href="/OpenGoPro/demos">Demos</a>
+              <a href="/demos">Demos</a>
             </li>
 <li class="masthead__menu-item">
-              <a href="/OpenGoPro/faq">FAQ</a>
+              <a href="/faq">FAQ</a>
             </li>
 </ul>
         
@@ -181,7 +181,7 @@
     
       
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="https://gopro.github.io/OpenGoPro/" itemprop="item"><span itemprop="name">Home</span></a>
+          <a href="https://gopro.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
           <meta itemprop="position" content="1">
         </li>
         <span class="sep">/</span>
@@ -189,7 +189,7 @@
       
         
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="/OpenGoPro/tutorials" itemprop="item"><span itemprop="name">Tutorials</span></a>
+          <a href="/tutorials" itemprop="item"><span itemprop="name">Tutorials</span></a>
           <meta itemprop="position" content="2">
         </li>
         <span class="sep">/</span>
@@ -199,7 +199,7 @@
       
         
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="/OpenGoPro/python" itemprop="item"><span itemprop="name">Python</span></a>
+          <a href="/python" itemprop="item"><span itemprop="name">Python</span></a>
           <meta itemprop="position" content="3">
         </li>
         <span class="sep">/</span>
@@ -227,7 +227,7 @@
   
     <div class="author__avatar">
       
-        <img src="/OpenGoPro/assets/images/logos/logo_square.png" alt="GoPro" itemprop="image">
+        <img src="/assets/images/logos/logo_square.png" alt="GoPro" itemprop="image">
       
     </div>
   
@@ -354,7 +354,7 @@
     
       <li>
         
-          <a href="/OpenGoPro/tutorials/python/connect-ble"><span class="nav__sub-title">1: Connect BLE</span></a>
+          <a href="/tutorials/python/connect-ble"><span class="nav__sub-title">1: Connect BLE</span></a>
         
 
         
@@ -362,7 +362,7 @@
     
       <li>
         
-          <a href="/OpenGoPro/tutorials/python/send-ble-commands"><span class="nav__sub-title">2: Send BLE Commands</span></a>
+          <a href="/tutorials/python/send-ble-commands"><span class="nav__sub-title">2: Send BLE Commands</span></a>
         
 
         
@@ -370,7 +370,7 @@
     
       <li>
         
-          <a href="/OpenGoPro/tutorials/python/parse-ble-responses"><span class="nav__sub-title">3: Parse BLE TLV Responses</span></a>
+          <a href="/tutorials/python/parse-ble-responses"><span class="nav__sub-title">3: Parse BLE TLV Responses</span></a>
         
 
         
@@ -378,7 +378,7 @@
     
       <li>
         
-          <a href="/OpenGoPro/tutorials/python/ble-queries"><span class="nav__sub-title">4: BLE Queries</span></a>
+          <a href="/tutorials/python/ble-queries"><span class="nav__sub-title">4: BLE Queries</span></a>
         
 
         
@@ -386,7 +386,7 @@
     
       <li>
         
-          <a href="/OpenGoPro/tutorials/python/connect-wifi"><span class="nav__sub-title">5: Connect WiFi</span></a>
+          <a href="/tutorials/python/connect-wifi"><span class="nav__sub-title">5: Connect WiFi</span></a>
         
 
         
@@ -394,7 +394,7 @@
     
       <li>
         
-          <a href="/OpenGoPro/tutorials/python/send-wifi-commands"><span class="nav__sub-title">6: Send WiFi Commands</span></a>
+          <a href="/tutorials/python/send-wifi-commands"><span class="nav__sub-title">6: Send WiFi Commands</span></a>
         
 
         
@@ -402,7 +402,7 @@
     
       <li>
         
-          <a href="/OpenGoPro/tutorials/python/camera-media-list"><span class="nav__sub-title">7: Camera Media List</span></a>
+          <a href="/tutorials/python/camera-media-list"><span class="nav__sub-title">7: Camera Media List</span></a>
         
 
         
@@ -420,7 +420,7 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Python Tutorial 3: Parse BLE TLV Responses">
     <meta itemprop="description" content="Python Tutorial 3: Parse BLE TLV Responses">
-    <meta itemprop="datePublished" content="2021-11-15T17:00:14-08:00">
+    <meta itemprop="datePublished" content="2022-01-05T02:04:05-08:00">
     
 
     <div class="page__inner-wrap">
@@ -483,14 +483,14 @@
           </aside>
         
         <p>This document will provide a walk-through tutorial to use <a href="https://pypi.org/project/bleak/">bleak</a> to implement the
-<a href="/OpenGoPro/ble">Open GoPro Interface</a> to parse BLE
+<a href="/ble">Open GoPro Interface</a> to parse BLE
 <a href="https://en.wikipedia.org/wiki/Type-length-value">Type-Length-Value</a> (TLV) Responses.</p>
 
 <p>Besides TLV, some BLE commands instead return protobuf responses. These will be discussed in a future
 tutorial.</p>
 
 <blockquote>
-  <p>Note! It is required that you have first completed the <a href="/OpenGoPro/tutorials/python/connect-ble#requirements">connect</a> and <a href="/OpenGoPro/tutorials/python/send-ble-commands">sending commands</a> tutorials before going through this tutorial.</p>
+  <p>Note! It is required that you have first completed the <a href="/tutorials/python/connect-ble#requirements">connect</a> and <a href="/tutorials/python/send-ble-commands">sending commands</a> tutorials before going through this tutorial.</p>
 </blockquote>
 
 <p>This tutorial will give an overview of types of responses, then give examples of parsing each type
@@ -498,7 +498,7 @@ before finally providing a <strong>Response</strong> class that will be used in 
 
 <h1 id="requirements">Requirements</h1>
 
-<p>It is assumed that the hardware and software requirements from the <a href="/OpenGoPro/tutorials/python/connect-ble">connect tutorial</a>
+<p>It is assumed that the hardware and software requirements from the <a href="/tutorials/python/connect-ble">connect tutorial</a>
 are present and configured correctly.</p>
 
 <p>The scripts that will be used for this tutorial can be found in the
@@ -513,7 +513,7 @@ tutorial and just want to see the demo, for example, run:</p>
 </code></pre></div></div>
 
 <blockquote>
-  <p>Note! Python 3.8.x must be used as specified in <a href="/OpenGoPro/tutorials/python/connect-ble#requirements">the requirements</a></p>
+  <p>Note! Python 3.8.x must be used as specified in <a href="/tutorials/python/connect-ble#requirements">the requirements</a></p>
 </blockquote>
 
 <p>Note that each script has a command-line help which can be found via:</p>
@@ -531,7 +531,7 @@ optional arguments:
 
 <h1 id="setup">Setup</h1>
 
-<p>We must first connect as was discussed in the <a href="/OpenGoPro/tutorials/python/connect-ble">connect tutorial</a>. When enabling notifications,
+<p>We must first connect as was discussed in the <a href="/tutorials/python/connect-ble">connect tutorial</a>. When enabling notifications,
 one of the notification handlers described in the following sections will be used.</p>
 
 <h1 id="response-overview">Response Overview</h1>
@@ -544,7 +544,7 @@ always appears as such (connection sequence left out for brevity):</p>
 <p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5wYXJ0aWNpcGFudCBQQyBhcyBPcGVuIEdvUHJvIHVzZXIgZGV2aWNlXG5wYXJ0aWNpcGFudCBHb1Byb1xubm90ZSBvdmVyIFBDLCBHb1BybyA6IGRldmljZXMgYXJlIGNvbm5lY3RlZCBhcyBpbiBUdXRvcmlhbCAxXG5QQyAtPj4gR29Qcm86IFdyaXRlIHRvIGNoYXJhY3RlcmlzdGljXG5Hb1BybyAtPj4gUEM6IE5vdGlmaWNhdGlvbiBSZXNwb25zZSAoTVNCID09IDAgKHN0YXJ0KSkiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ"></p>
 
 <p>In actuality, responses can be more complicated. As described in the
-<a href="/OpenGoPro/ble#packet-headers">Open GoPro Interface</a>, responses can be
+<a href="/ble#packet-headers">Open GoPro Interface</a>, responses can be
 be comprised of multiple packets where each packet is &lt;= 20 bytes such as:</p>
 
 <p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5wYXJ0aWNpcGFudCBQQyBhcyBPcGVuIEdvUHJvIHVzZXIgZGV2aWNlXG5wYXJ0aWNpcGFudCBHb1Byb1xubm90ZSBvdmVyIFBDLCBHb1BybyA6IGRldmljZXMgYXJlIGNvbm5lY3RlZCBhcyBpbiBUdXRvcmlhbCAxXG5QQyAtPj4gR29Qcm86IFdyaXRlIHRvIGNoYXJhY3RlcmlzdGljXG5Hb1BybyAtPj4gUEM6IE5vdGlmaWNhdGlvbiBSZXNwb25zZSAoTVNCID09IDAgKHN0YXJ0KSlcbkdvUHJvIC0-PiBQQzogTm90aWZpY2F0aW9uIFJlc3BvbnNlIChNU0IgPT0gMSAoY29udGludWF0aW9uKSlcbkdvUHJvIC0-PiBQQzogTm90aWZpY2F0aW9uIFJlc3BvbnNlIChNU0IgPT0gMSAoY29udGludWF0aW9uKSlcbkdvUHJvIC0-PiBQQzogTm90aWZpY2F0aW9uIFJlc3BvbnNlIChNU0IgPT0gMSAoY29udGludWF0aW9uKSkiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ"></p>
@@ -580,7 +580,7 @@ is formatted as such:</p>
 
 <p>These are the only responses that we have seen thus far through the first 2 tutorials. They
 return a status but have a 0 length additional response. For example, consider
-<a href="/OpenGoPro/tutorials/python/send-ble-commands#set-shutter">Set Shutter</a>. It returned a response of</p>
+<a href="/tutorials/python/send-ble-commands#set-shutter">Set Shutter</a>. It returned a response of</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>02\:01\:00
 </code></pre></div></div>
@@ -614,12 +614,12 @@ return a status but have a 0 length additional response. For example, consider
 
 <p>We can see how this response includes the status but no additional response data. This type of
 response will be used for most Commands and Setting Responses as seen in the
-<a href="/OpenGoPro/tutorials/python/send-ble-commands">previous tutorial</a>.</p>
+<a href="/tutorials/python/send-ble-commands">previous tutorial</a>.</p>
 
 <h2 id="complex-command-response">Complex Command Response</h2>
 
 <p>There are some commands that do return additional response data. These are called “complex responses.”
-From the <a href="/OpenGoPro/ble#commands-quick-reference">commands reference</a>, we can see that these are:</p>
+From the <a href="/ble#commands-quick-reference">commands reference</a>, we can see that these are:</p>
 
 <ul>
   <li>Get Open GoPro Version (ID == 0x51)</li>
@@ -634,7 +634,7 @@ Get Version command which we will walk through here.</p>
 See the relevant version of the BLE and / or WiFi spec for more details about each version.</span>
 </div>
 
-<p>First, we send the command to the Command Request <a href="/OpenGoPro/ble#services-and-characteristics">UUID</a>:</p>
+<p>First, we send the command to the Command Request <a href="/ble#services-and-characteristics">UUID</a>:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">COMMAND_REQ_UUID</span> <span class="o">=</span> <span class="n">GOPRO_BASE_UUID</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="s">"0072"</span><span class="p">)</span>
 <span class="n">event</span><span class="p">.</span><span class="n">clear</span><span class="p">()</span>
@@ -680,7 +680,7 @@ INFO\:root\:Received response at handle=52: b'06\:51\:00\:01\:01\:01\:00'
 </table>
 
 <p>We can see that this “complex response” contains 4 additional bytes that need to be parsed. Using the information
-from the <a href="/OpenGoPro/ble#complex-command-responses">interface description</a>,
+from the <a href="/ble#complex-command-responses">interface description</a>,
 we know to parse this as:</p>
 
 <table>
@@ -758,10 +758,10 @@ print them (and all of the other response information) as such:</p>
 
 <p><strong>Quiz time! 📚 ✏️</strong></p>
 
-<div id="quiz_c3008e7b-c586-489c-9a63-53f524fce01d" class="quiz">
+<div id="quiz_2313146f-60f1-4730-9f42-f5adb48b3262" class="quiz">
     <div>
-        <div id="question_c3008e7b-c586-489c-9a63-53f524fce01d" class="quiz__question">What is the maximum size of an individual notification response packet?</div>
-        <div id="answers_c3008e7b-c586-489c-9a63-53f524fce01d">
+        <div id="question_2313146f-60f1-4730-9f42-f5adb48b3262" class="quiz__question">What is the maximum size of an individual notification response packet?</div>
+        <div id="answers_2313146f-60f1-4730-9f42-f5adb48b3262">
         
             <input type="radio" name="question" value="A"><label>A: 20 bytes</label>
             <br>
@@ -774,19 +774,19 @@ print them (and all of the other response information) as such:</p>
         
         </div>
     </div>
-    <button onclick="showResults('c3008e7b-c586-489c-9a63-53f524fce01d', 'A')">Submit Answer</button>
-    <div id="results_c3008e7b-c586-489c-9a63-53f524fce01d" style="display: none">
-        <span id="correct_c3008e7b-c586-489c-9a63-53f524fce01d" style="display: none">  Correct!! 😃</span>
-        <span id="incorrect_c3008e7b-c586-489c-9a63-53f524fce01d" style="display: none"> Incorrect!! 😭 The correct answer is A.</span>
+    <button onclick="showResults('2313146f-60f1-4730-9f42-f5adb48b3262', 'A')">Submit Answer</button>
+    <div id="results_2313146f-60f1-4730-9f42-f5adb48b3262" style="display: none">
+        <span id="correct_2313146f-60f1-4730-9f42-f5adb48b3262" style="display: none">  Correct!! 😃</span>
+        <span id="incorrect_2313146f-60f1-4730-9f42-f5adb48b3262" style="display: none"> Incorrect!! 😭 The correct answer is A.</span>
         Responses can be composed of multiple packets where each packet is at
     maximum 20 bytes.
     </div>
 </div>
 
-<div id="quiz_ea9c0578-40b4-4d58-a3a5-f599236881c8" class="quiz">
+<div id="quiz_c5e1ae59-5056-43d9-8241-35970c6bf29e" class="quiz">
     <div>
-        <div id="question_ea9c0578-40b4-4d58-a3a5-f599236881c8" class="quiz__question">What is the maximum amount of packets that one response can be composed of?</div>
-        <div id="answers_ea9c0578-40b4-4d58-a3a5-f599236881c8">
+        <div id="question_c5e1ae59-5056-43d9-8241-35970c6bf29e" class="quiz__question">What is the maximum amount of packets that one response can be composed of?</div>
+        <div id="answers_c5e1ae59-5056-43d9-8241-35970c6bf29e">
         
             <input type="radio" name="question" value="A"><label>A: 20 bytes</label>
             <br>
@@ -799,18 +799,18 @@ print them (and all of the other response information) as such:</p>
         
         </div>
     </div>
-    <button onclick="showResults('ea9c0578-40b4-4d58-a3a5-f599236881c8', 'C')">Submit Answer</button>
-    <div id="results_ea9c0578-40b4-4d58-a3a5-f599236881c8" style="display: none">
-        <span id="correct_ea9c0578-40b4-4d58-a3a5-f599236881c8" style="display: none">  Correct!! 😃</span>
-        <span id="incorrect_ea9c0578-40b4-4d58-a3a5-f599236881c8" style="display: none"> Incorrect!! 😭 The correct answer is C.</span>
+    <button onclick="showResults('c5e1ae59-5056-43d9-8241-35970c6bf29e', 'C')">Submit Answer</button>
+    <div id="results_c5e1ae59-5056-43d9-8241-35970c6bf29e" style="display: none">
+        <span id="correct_c5e1ae59-5056-43d9-8241-35970c6bf29e" style="display: none">  Correct!! 😃</span>
+        <span id="incorrect_c5e1ae59-5056-43d9-8241-35970c6bf29e" style="display: none"> Incorrect!! 😭 The correct answer is C.</span>
         There is no limit on the amount of packets that can comprise a response.
     </div>
 </div>
 
-<div id="quiz_fe4c2412-b6cc-467e-9642-9a07c06df17d" class="quiz">
+<div id="quiz_7fe5cea7-aec7-41bb-85fc-78980d8b36ff" class="quiz">
     <div>
-        <div id="question_fe4c2412-b6cc-467e-9642-9a07c06df17d" class="quiz__question">What is the maximum amount of packets that one response can be composed of?</div>
-        <div id="answers_fe4c2412-b6cc-467e-9642-9a07c06df17d">
+        <div id="question_7fe5cea7-aec7-41bb-85fc-78980d8b36ff" class="quiz__question">What is the maximum amount of packets that one response can be composed of?</div>
+        <div id="answers_7fe5cea7-aec7-41bb-85fc-78980d8b36ff">
         
             <input type="radio" name="question" value="A"><label>A: Always 1 packet</label>
             <br>
@@ -823,20 +823,20 @@ print them (and all of the other response information) as such:</p>
         
         </div>
     </div>
-    <button onclick="showResults('fe4c2412-b6cc-467e-9642-9a07c06df17d', 'C')">Submit Answer</button>
-    <div id="results_fe4c2412-b6cc-467e-9642-9a07c06df17d" style="display: none">
-        <span id="correct_fe4c2412-b6cc-467e-9642-9a07c06df17d" style="display: none">  Correct!! 😃</span>
-        <span id="incorrect_fe4c2412-b6cc-467e-9642-9a07c06df17d" style="display: none"> Incorrect!! 😭 The correct answer is C.</span>
+    <button onclick="showResults('7fe5cea7-aec7-41bb-85fc-78980d8b36ff', 'C')">Submit Answer</button>
+    <div id="results_7fe5cea7-aec7-41bb-85fc-78980d8b36ff" style="display: none">
+        <span id="correct_7fe5cea7-aec7-41bb-85fc-78980d8b36ff" style="display: none">  Correct!! 😃</span>
+        <span id="incorrect_7fe5cea7-aec7-41bb-85fc-78980d8b36ff" style="display: none"> Incorrect!! 😭 The correct answer is C.</span>
         Command responses are almost always 1 packet (just returning the status).
     The exception are complex responses which can be multiple packets (in the case of Get Hardware
     Info)
     </div>
 </div>
 
-<div id="quiz_faf37e1f-b0e2-4b4d-b7fe-4a0566cb8974" class="quiz">
+<div id="quiz_4ecc358a-7bb4-4a02-a093-2758ddabdea2" class="quiz">
     <div>
-        <div id="question_faf37e1f-b0e2-4b4d-b7fe-4a0566cb8974" class="quiz__question">How many packets are setting responses comprised of?</div>
-        <div id="answers_faf37e1f-b0e2-4b4d-b7fe-4a0566cb8974">
+        <div id="question_4ecc358a-7bb4-4a02-a093-2758ddabdea2" class="quiz__question">How many packets are setting responses comprised of?</div>
+        <div id="answers_4ecc358a-7bb4-4a02-a093-2758ddabdea2">
         
             <input type="radio" name="question" value="A"><label>A: Always 1 packet</label>
             <br>
@@ -849,10 +849,10 @@ print them (and all of the other response information) as such:</p>
         
         </div>
     </div>
-    <button onclick="showResults('faf37e1f-b0e2-4b4d-b7fe-4a0566cb8974', 'A')">Submit Answer</button>
-    <div id="results_faf37e1f-b0e2-4b4d-b7fe-4a0566cb8974" style="display: none">
-        <span id="correct_faf37e1f-b0e2-4b4d-b7fe-4a0566cb8974" style="display: none">  Correct!! 😃</span>
-        <span id="incorrect_faf37e1f-b0e2-4b4d-b7fe-4a0566cb8974" style="display: none"> Incorrect!! 😭 The correct answer is A.</span>
+    <button onclick="showResults('4ecc358a-7bb4-4a02-a093-2758ddabdea2', 'A')">Submit Answer</button>
+    <div id="results_4ecc358a-7bb4-4a02-a093-2758ddabdea2" style="display: none">
+        <span id="correct_4ecc358a-7bb4-4a02-a093-2758ddabdea2" style="display: none">  Correct!! 😃</span>
+        <span id="incorrect_4ecc358a-7bb4-4a02-a093-2758ddabdea2" style="display: none"> Incorrect!! 😭 The correct answer is A.</span>
         Settings Responses only ever contain the command status. Furthermore, there
     is no concept of complex responses for setting commands.
     </div>
@@ -1069,10 +1069,10 @@ INFO\:root\:Successfully received the response
 
 <p><strong>Quiz time! 📚 ✏️</strong></p>
 
-<div id="quiz_dbe19dfd-454a-4604-96e6-82fef64633e1" class="quiz">
+<div id="quiz_686be7df-7a9d-4880-b263-36d36f0a2fb1" class="quiz">
     <div>
-        <div id="question_dbe19dfd-454a-4604-96e6-82fef64633e1" class="quiz__question">How can we know that a response has been completely received?</div>
-        <div id="answers_dbe19dfd-454a-4604-96e6-82fef64633e1">
+        <div id="question_686be7df-7a9d-4880-b263-36d36f0a2fb1" class="quiz__question">How can we know that a response has been completely received?</div>
+        <div id="answers_686be7df-7a9d-4880-b263-36d36f0a2fb1">
         
             <input type="radio" name="question" value="A"><label>A: The stop bit will be set in the header</label>
             <br>
@@ -1085,10 +1085,10 @@ INFO\:root\:Successfully received the response
         
         </div>
     </div>
-    <button onclick="showResults('dbe19dfd-454a-4604-96e6-82fef64633e1', 'B')">Submit Answer</button>
-    <div id="results_dbe19dfd-454a-4604-96e6-82fef64633e1" style="display: none">
-        <span id="correct_dbe19dfd-454a-4604-96e6-82fef64633e1" style="display: none">  Correct!! 😃</span>
-        <span id="incorrect_dbe19dfd-454a-4604-96e6-82fef64633e1" style="display: none"> Incorrect!! 😭 The correct answer is B.</span>
+    <button onclick="showResults('686be7df-7a9d-4880-b263-36d36f0a2fb1', 'B')">Submit Answer</button>
+    <div id="results_686be7df-7a9d-4880-b263-36d36f0a2fb1" style="display: none">
+        <span id="correct_686be7df-7a9d-4880-b263-36d36f0a2fb1" style="display: none">  Correct!! 😃</span>
+        <span id="incorrect_686be7df-7a9d-4880-b263-36d36f0a2fb1" style="display: none"> Incorrect!! 😭 The correct answer is B.</span>
         The length of the entire response is parsed from the first packet. We
         then accumulate packets, keeping track of the received length, until all of the bytes
         have been received. A and C are just made up 😜.
@@ -1098,7 +1098,7 @@ INFO\:root\:Successfully received the response
 <h2 id="query-responses">Query Responses</h2>
 
 <p>This section is going to describe responses to to BLE status / setting queries. We don’t actually
-introduce such queries until <a href="/OpenGoPro/tutorials/python/ble-queries">the next tutorial</a> so for now, only the
+introduce such queries until <a href="/tutorials/python/ble-queries">the next tutorial</a> so for now, only the
 parsing of the response is important.</p>
 
 <div class="tip">
@@ -1247,7 +1247,7 @@ each value in a dict indexed by ID for later access.</p>
 </span></code></pre></div></div>
 
 <p>We can see what each of these values mean by looking at the
-<a href="/OpenGoPro/ble#settings-quick-reference">Open GoPro Interface</a>.</p>
+<a href="/ble#settings-quick-reference">Open GoPro Interface</a>.</p>
 
 <p>For example:</p>
 
@@ -1256,10 +1256,10 @@ each value in a dict indexed by ID for later access.</p>
   <li>ID 3 == 1 equates to FPS == 120</li>
 </ul>
 
-<div id="quiz_b211dfb2-895e-46f4-bc39-588443ea5415" class="quiz">
+<div id="quiz_a69b5a58-d8b5-45f1-9e28-955212cac907" class="quiz">
     <div>
-        <div id="question_b211dfb2-895e-46f4-bc39-588443ea5415" class="quiz__question">How many packets are query responses?</div>
-        <div id="answers_b211dfb2-895e-46f4-bc39-588443ea5415">
+        <div id="question_a69b5a58-d8b5-45f1-9e28-955212cac907" class="quiz__question">How many packets are query responses?</div>
+        <div id="answers_a69b5a58-d8b5-45f1-9e28-955212cac907">
         
             <input type="radio" name="question" value="A"><label>A: Always 1 packet</label>
             <br>
@@ -1275,20 +1275,20 @@ each value in a dict indexed by ID for later access.</p>
         
         </div>
     </div>
-    <button onclick="showResults('b211dfb2-895e-46f4-bc39-588443ea5415', 'D')">Submit Answer</button>
-    <div id="results_b211dfb2-895e-46f4-bc39-588443ea5415" style="display: none">
-        <span id="correct_b211dfb2-895e-46f4-bc39-588443ea5415" style="display: none">  Correct!! 😃</span>
-        <span id="incorrect_b211dfb2-895e-46f4-bc39-588443ea5415" style="display: none"> Incorrect!! 😭 The correct answer is D.</span>
+    <button onclick="showResults('a69b5a58-d8b5-45f1-9e28-955212cac907', 'D')">Submit Answer</button>
+    <div id="results_a69b5a58-d8b5-45f1-9e28-955212cac907" style="display: none">
+        <span id="correct_a69b5a58-d8b5-45f1-9e28-955212cac907" style="display: none">  Correct!! 😃</span>
+        <span id="incorrect_a69b5a58-d8b5-45f1-9e28-955212cac907" style="display: none"> Incorrect!! 😭 The correct answer is D.</span>
         Query responses can be one packet (if for example querying a specific
 setting) or multiple packets (when querying many or all settings as in the example here).
 See the next tutorial for more information on queries.
     </div>
 </div>
 
-<div id="quiz_7d8b059f-0f3a-4179-bcdf-39132ba9d7dc" class="quiz">
+<div id="quiz_9f2203bc-bae7-4fa6-a0a7-1968e82a0bf3" class="quiz">
     <div>
-        <div id="question_7d8b059f-0f3a-4179-bcdf-39132ba9d7dc" class="quiz__question">Which field is not common to all responses?</div>
-        <div id="answers_7d8b059f-0f3a-4179-bcdf-39132ba9d7dc">
+        <div id="question_9f2203bc-bae7-4fa6-a0a7-1968e82a0bf3" class="quiz__question">Which field is not common to all responses?</div>
+        <div id="answers_9f2203bc-bae7-4fa6-a0a7-1968e82a0bf3">
         
             <input type="radio" name="question" value="A"><label>A: length</label>
             <br>
@@ -1301,10 +1301,10 @@ See the next tutorial for more information on queries.
         
         </div>
     </div>
-    <button onclick="showResults('7d8b059f-0f3a-4179-bcdf-39132ba9d7dc', 'D')">Submit Answer</button>
-    <div id="results_7d8b059f-0f3a-4179-bcdf-39132ba9d7dc" style="display: none">
-        <span id="correct_7d8b059f-0f3a-4179-bcdf-39132ba9d7dc" style="display: none">  Correct!! 😃</span>
-        <span id="incorrect_7d8b059f-0f3a-4179-bcdf-39132ba9d7dc" style="display: none"> Incorrect!! 😭 The correct answer is D.</span>
+    <button onclick="showResults('9f2203bc-bae7-4fa6-a0a7-1968e82a0bf3', 'D')">Submit Answer</button>
+    <div id="results_9f2203bc-bae7-4fa6-a0a7-1968e82a0bf3" style="display: none">
+        <span id="correct_9f2203bc-bae7-4fa6-a0a7-1968e82a0bf3" style="display: none">  Correct!! 😃</span>
+        <span id="incorrect_9f2203bc-bae7-4fa6-a0a7-1968e82a0bf3" style="display: none"> Incorrect!! 😭 The correct answer is D.</span>
         Query responses can be one packet (if for example querying a specific
 setting) or multiple packets (when querying many or all settings as in the example here).
 See the next tutorial for more information on queries.
@@ -1313,7 +1313,7 @@ See the next tutorial for more information on queries.
 
 <h1 id="troubleshooting">Troubleshooting</h1>
 
-<p>See the first tutorial’s <a href="/OpenGoPro/tutorials/python/connect-ble#troubleshooting">troubleshooting section</a>.</p>
+<p>See the first tutorial’s <a href="/tutorials/python/connect-ble#troubleshooting">troubleshooting section</a>.</p>
 
 <h1 id="good-job">Good Job!</h1>
 
@@ -1338,7 +1338,7 @@ example of this, see the <a href="https://gopro.github.io/OpenGoPro/python_sdk/"
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-11-15T17:00:14-08:00">November 15, 2021</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-01-05T02:04:05-08:00">January 5, 2022</time></p>
 
 
       </footer>
@@ -1348,11 +1348,11 @@ example of this, see the <a href="https://gopro.github.io/OpenGoPro/python_sdk/"
       
   <nav class="pagination">
     
-      <a href="/OpenGoPro/tutorials/python/send-ble-commands" class="pagination--pager" title="Python Tutorial 2: Send BLE Commands
+      <a href="/tutorials/python/send-ble-commands" class="pagination--pager" title="Python Tutorial 2: Send BLE Commands
 ">Previous</a>
     
     
-      <a href="/OpenGoPro/tutorials/python/ble-queries" class="pagination--pager" title="Python Tutorial 4: BLE Queries
+      <a href="/tutorials/python/ble-queries" class="pagination--pager" title="Python Tutorial 4: BLE Queries
 ">Next</a>
     
   </nav>
@@ -1420,7 +1420,7 @@ example of this, see the <a href="https://gopro.github.io/OpenGoPro/python_sdk/"
 </div>
 
 <div class="page__footer-copyright">
-    © 2021 GoPro. Powered by
+    © 2022 GoPro. Powered by
     <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp;
     <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
     <p>
@@ -1436,14 +1436,14 @@ example of this, see the <a href="https://gopro.github.io/OpenGoPro/python_sdk/"
     </div>
 
     
-  <script src="/OpenGoPro/assets/js/main.min.js"></script>
+  <script src="/assets/js/main.min.js"></script>
 
 
 
 
-<script src="/OpenGoPro/assets/js/lunr/lunr.min.js"></script>
-<script src="/OpenGoPro/assets/js/lunr/lunr-store.js"></script>
-<script src="/OpenGoPro/assets/js/lunr/lunr-en.js"></script>
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 
